@@ -1,0 +1,41 @@
+{
+	"name": "translate",
+	"description": "Command line translator application which fetchs the data from Libre translation API",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"translate": "index.js"
+	},
+	"author": {
+		"name": "Keshava",
+		"email": "keshavrao0489@gmail.com",
+		"url": "https://github.com/k3shav17"
+	},
+	"keywords": [
+		"translate",
+		"Keshava"
+	],
+	"files": [
+		"index.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"type": "module",
+	"dependencies": {
+		"axios": "^0.27.2",
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.2",
+		"meow": "^9.0.0",
+		"readline-sync": "^1.4.10",
+		"util": "^0.12.4"
+	},
+	"devDependencies": {
+		"prettier": "^2.6.2"
+	}
+}
